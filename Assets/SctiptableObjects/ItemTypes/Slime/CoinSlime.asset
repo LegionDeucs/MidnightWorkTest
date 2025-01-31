@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975e048eb9c526a4694dcec75c4ad72f, type: 3}
+  m_Name: CoinSlime
+  m_EditorClassIdentifier: 
+  itemPrefab: {fileID: 3381259760453726489, guid: 62e58e4ebb958d145898f625bf879b2f, type: 3}
+  itemDataID: {fileID: 11400000, guid: d3b367c8358be5a4a88fbde3da54ee8b, type: 2}
+  pieceStorageValue: 50
+  itemSprite: {fileID: 21300000, guid: b02d1b62f2c9e974f843a9f5c8823dd4, type: 3}

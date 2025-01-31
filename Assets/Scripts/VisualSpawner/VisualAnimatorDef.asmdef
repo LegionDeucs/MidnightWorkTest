@@ -1,0 +1,17 @@
+{
+    "name": "VisualAnimatorDef",
+    "rootNamespace": "",
+    "references": [
+        "GUID:74e12e35ae03987488f74dd8f6995f49",
+        "GUID:4c546b1e92e607d4580139376636404a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

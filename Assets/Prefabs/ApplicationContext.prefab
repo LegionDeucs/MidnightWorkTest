@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6266227929912638843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1273427579217306856}
+  - component: {fileID: 870930247850977198}
+  - component: {fileID: 6804020853541984875}
+  - component: {fileID: 9133508765607871541}
+  m_Layer: 0
+  m_Name: ApplicationContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1273427579217306856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266227929912638843}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &870930247850977198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266227929912638843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2bad164f4f1ef847aad025f52fcfd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneLevelManager: {fileID: 6804020853541984875}
+  itemsEncyclopedia: {fileID: 9133508765607871541}
+  levelDataID: {fileID: 11400000, guid: 6ed0a078558d93c48abf86995ad93696, type: 2}
+--- !u!114 &6804020853541984875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266227929912638843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9492bcfa33ad84ab3f02c2b619d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingScene: {fileID: 11400000, guid: 1134c53466056c040b19ee23aa5fbe15, type: 2}
+  levels:
+  - {fileID: 11400000, guid: d5a78f0ab8a421549a0f5f1069475a27, type: 2}
+--- !u!114 &9133508765607871541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266227929912638843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c98b2eb14380544096874e0fc700c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemTypes:
+  - {fileID: 11400000, guid: 57d30694e3bba5747b5fe79262e0042f, type: 2}
+  - {fileID: 11400000, guid: 2e1f929ce72b9544581f646692de9b9d, type: 2}
+  - {fileID: 11400000, guid: 80f75063995c34d4fbe85215627c011f, type: 2}
+  - {fileID: 11400000, guid: c7b51fde1cfbf8848a09fc91376fde88, type: 2}
+  slimes:
+  - {fileID: 11400000, guid: 57d30694e3bba5747b5fe79262e0042f, type: 2}
+  - {fileID: 11400000, guid: c7b51fde1cfbf8848a09fc91376fde88, type: 2}

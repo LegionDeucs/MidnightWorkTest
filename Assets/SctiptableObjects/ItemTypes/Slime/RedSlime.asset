@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975e048eb9c526a4694dcec75c4ad72f, type: 3}
+  m_Name: RedSlime
+  m_EditorClassIdentifier: 
+  itemPrefab: {fileID: 3381259760453726489, guid: 13238e73e49d1c04295f401e0725e4f5, type: 3}
+  itemDataID: {fileID: 11400000, guid: ac8fbb2c16055c04ea799ec6a1d5dc0f, type: 2}
+  pieceStorageValue: 5
+  itemSprite: {fileID: 21300000, guid: 4c45c2efdfd3d8845972b9a8b7069181, type: 3}
